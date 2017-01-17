@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Swan Tab",
+  "author": "Ghanshyam Choudhari",
+   "short_name": "Infinity Swan Tab",
+  "description": "Swan With Every New Tab!!!",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "icon/icon.png"
+  },
+ "chrome_url_overrides": {
+    "newtab": "popup.html"
+  },
+      "background": {
+    "scripts": ["background/background.js"]
+  }
+}
